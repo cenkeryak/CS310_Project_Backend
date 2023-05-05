@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "c38ea429-29ed-4ca0-b951-096ffb69cbca",
+		"name": "Exercises",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"muscle\":\"biceps\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/exercises/getExercise",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"exercises",
+						"getExercise"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
